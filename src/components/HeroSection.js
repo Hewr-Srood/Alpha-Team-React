@@ -27,7 +27,7 @@ export default function HeroSection() {
           <div className="col-12 col-md-4 col-lg-4 my-cloumn mt-5">
             <img
               className="img-fluid"
-              alt="watch-image"
+              alt="watch-picture"
               src="https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-copy-3.png"
             />
           </div>
