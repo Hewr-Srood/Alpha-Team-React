@@ -49,7 +49,7 @@ export function SeconNav() {
           href="#"
         >
           <motion.div
-            whileHover={{ scale: 1.1, color: "rgba(0, 0, 0, 0.61)" }}
+            whileHover={{ scale: 1.1, color: "#a265f1" }}
             whileTap={{ scale: 0.9 }}
           >
             <CartFill size={35} />
@@ -67,9 +67,11 @@ export function SeconNav() {
           </p>
         </Nav.Link>
         <Nav.Link className="font-weight-bolder text-white" href="#">
-          <Button className="btn-purple rounded-pill ">
-            <h5 className="px-3 py-1 my-auto font-weight-bolder ">Buy Now</h5>
-          </Button>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
+            <Button className="btn-purple rounded-pill ">
+              <h5 className="px-3 py-1 my-auto font-weight-bolder ">Buy Now</h5>
+            </Button>
+          </motion.div>
         </Nav.Link>
       </Nav>
     </>

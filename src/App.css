@@ -1,11 +1,13 @@
 body {
   font-family: "Poppins", "Raleway", "Helvetica", "Arial", sans-serif;
+  background: #191919;
 }
+
 .bg-purple {
   background: #741ee1;
 }
 .text-purple {
-  background: #741ee1;
+  color: #741ee1;
 }
 .border-purple {
   border-color: #741ee1;
@@ -13,10 +15,21 @@ body {
 .btn-purple {
   background: #741ee1;
   color: #fff;
-  border-color: #741ee1;
+  box-shadow: none !important;
+  border: none !important;
 }
 .btn-purple:hover {
-  background: rgba(0, 0, 0, 0.61);
+  background: #a265f1;
   color: #fff;
-  border-color: transparent;
+}
+.btn-purple:focus {
+  background: #741ee1 !important;
+  color: #fff;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.hero-font-size {
+  font-size: 61px;
+  font-weight: 800 !important;
 }
