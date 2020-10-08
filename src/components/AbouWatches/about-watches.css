@@ -1,0 +1,103 @@
+.about-section {
+  background: #f4f4f4;
+}
+.text-container {
+  width: 70%;
+}
+.hero-img-container {
+  width: 50%;
+}
+.about-container {
+  min-height: calc(100vh - 88px);
+}
+@media only screen and (max-width: 768px) {
+  .text-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-height: 568px) {
+  .text-container {
+    font-size: 90%;
+  }
+}
+.carousel-wrapper {
+  width: 90%;
+}
+
+.carousel-img-anchor {
+  width: 30%;
+  position: relative;
+}
+
+.carousel-img {
+  border-radius: 15px;
+}
+
+.carousel-img-anchor .searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #7c1efd;
+  background: white;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.carousel-img-anchor:hover .searchIcon {
+  opacity: 0.8;
+}
+
+.carousel-img-anchor::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #7b1efd9f;
+  opacity: 0;
+  transform: scale(0);
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-img-anchor:hover::after {
+  opacity: 1;
+  border-radius: 15px;
+  transform: scale(1);
+}
+
+.carousel-img {
+  transition: all 0.3s;
+  max-width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 1;
+}
+
+#carousel-indicators {
+  margin: 0;
+  bottom: -15%;
+  left: 1%;
+  justify-content: flex-start;
+}
+
+#carousel-indicators li {
+  border-radius: 50%;
+  background-color: var(--main-color);
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 1%;
+}
+
+#small-carousel {
+  display: none;
+}

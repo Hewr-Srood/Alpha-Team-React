@@ -4768,6 +4768,11 @@ framer-motion@^2.6.13:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
+framer@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.2.8.tgz#e6ef3fce024f40b0ae140d8f8ca04353f51ae69e"
+  integrity sha512-vqUdAGTaH2W+8b+EdLFFg1ETLgYRpzBa7r0Ki/FkKm7xg7M5Dd9kXL7sVEjiBFnrSkNs2dhUmgORcwRphdALwA==
+
 framesync@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/framesync/-/framesync-4.1.0.tgz#69a8db3ca432dc70d6a76ba882684a1497ef068a"
@@ -4849,6 +4854,11 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
+
+fslightbox-react@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/fslightbox-react/-/fslightbox-react-1.5.0.tgz#07cf41d7ff8b02a79a0886d13519550b79dc50e5"
+  integrity sha512-xBe1K06pa3opWar/xBtArsHMnxMJWsmg5EmNdDtheDL9nMCqk2AXYlNnstfYVqtJJjqNReqeL21wc52Yy4rwWg==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -8790,6 +8800,13 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-icons@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.11.0.tgz#2ca2903dfab8268ca18ebd8cc2e879921ec3b254"
+  integrity sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q==
+  dependencies:
+    camelcase "^5.0.0"
 
 react-is@^16.12.0, react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"

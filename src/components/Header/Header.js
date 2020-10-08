@@ -23,8 +23,9 @@ export default function Header() {
   return (
     <header
       style={{
-        position: "sticky",
+        position: "fixed",
         zIndex: 9,
+        width: "100%",
       }}
     >
       <Navbar

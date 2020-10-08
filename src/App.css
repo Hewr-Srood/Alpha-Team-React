@@ -1,6 +1,7 @@
 body {
-  font-family: "Poppins", "Raleway", "Helvetica", "Arial", sans-serif;
   background: #191919;
+  font-family: "Poppins", "Raleway", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 .bg-purple {
@@ -28,8 +29,10 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+.text-light-silver {
+  color: #afa6bc;
+}
 
-.hero-font-size {
-  font-size: 61px;
+.font-weight-bolder {
   font-weight: 800 !important;
 }

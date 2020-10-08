@@ -1,0 +1,18 @@
+.hero-container {
+  height: 100vh;
+}
+@media only screen and (max-width: 768px) {
+  .Hero-Header {
+    padding-top: 7rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-height: 768px) {
+  .hero-container {
+    font-size: 80%;
+  }
+  .hero-img-container {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
