@@ -1,0 +1,64 @@
+#feauture-sec {
+  background: #fff;
+}
+.icon-container {
+  color: lightgray;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.icon-container:hover {
+  opacity: 2;
+}
+::selection {
+  background-color: #7d1eff !important;
+  color: #fff;
+}
+
+.heading {
+  line-height: 60px !important;
+  font-weight: 900 !important;
+}
+
+.heading span {
+  display: block;
+  text-align: left;
+}
+
+.element-margin {
+  margin-left: 5rem;
+}
+
+.heading-2 {
+  font-size: 14px;
+  line-height: 30px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  color: #aca3ba;
+}
+
+.col-11-content {
+  padding-left: 1rem;
+}
+
+.col-11-content h3 {
+  font-size: 1rem;
+}
+
+div.col-content {
+  text-align: left;
+  font-size: 1rem;
+  color: #8a8a8a;
+}
+
+.icon-color {
+  color: #7d1eff;
+  font-size: 1.7rem;
+}
+
+.col-out {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.empty {
+  height: 6rem;
+}
