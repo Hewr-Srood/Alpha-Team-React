@@ -1,9 +1,13 @@
 body {
   background: #191919;
-  font-family: "Poppins", "Raleway", "Helvetica", "Arial", sans-serif;
+  font-family: 'Poppins', 'Raleway', 'Helvetica', 'Arial', sans-serif;
   font-weight: 700;
 }
-
+section {
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .bg-purple {
   background: #741ee1;
 }

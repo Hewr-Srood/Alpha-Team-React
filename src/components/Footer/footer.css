@@ -1,0 +1,144 @@
+footer {
+  overflow-x: hidden;
+}
+
+div.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  background-color: #7d1eff;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.social-media-icons ul.social-media-icons-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.social-media-icons-list > li {
+  padding: 10px;
+}
+
+ul.social-media-icons-list > li a i {
+  color: white;
+}
+
+.background-footer {
+  background-color: #363636;
+}
+
+.big-container-cards-footer {
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+
+h3#jelevin {
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+}
+
+#last-line-first-card {
+  float: left;
+}
+
+.ul-footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-cards {
+  background-color: inherit;
+  width: 399.3px;
+  height: 240px;
+  padding: 35px 15px 0;
+  text-align: center;
+}
+
+.p-fonts-footer-sections {
+  color: #a1a1a1;
+  font-weight: 16px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.a-fonts-footer-sections {
+  color: white;
+  font-weight: 16px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.a-fonts-footer-sections:hover {
+  text-decoration: none;
+  opacity: 2;
+  color: #a1a1a1;
+}
+
+h6.p-fonts-footer-sections {
+  color: #f1f1f1;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-footer > li {
+  padding: 5px 0;
+}
+
+#last-line-in-footer {
+  background-color: inherit;
+  width: 960px;
+  height: 128;
+  text-align: center;
+}
+
+.last-div-footer {
+  margin: 50px 0;
+}
+
+.icons-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.icons-list > li {
+  padding: 0 10px;
+}
+
+/* it does not work */
+
+.icon-color {
+  color: lightgray;
+  opacity: 0.5;
+  font-size: 2rem;
+}
+
+.icon-color:hover {
+  opacity: 2;
+}

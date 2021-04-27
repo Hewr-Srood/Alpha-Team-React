@@ -1,0 +1,52 @@
+.slide-addres {
+  text-align: center;
+  color: #3f3849;
+}
+
+.silder-area {
+  background: #f4f4f4;
+  padding: 50px 0;
+
+  position: relative;
+}
+
+.img-area {
+  margin: 0 auto;
+  width: 100px;
+  height: 110px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.img-area img {
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-caption {
+  position: static;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+.carousel-caption > p {
+  color: #8d8698;
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+}
+
+.carousel-caption > span {
+  color: #8d8698;
+  font-size: 22px;
+}
+
+.carousel-caption > h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #7c1efd;
+}
+.silder-area .carousel-indicators {
+  display: none !important;
+}
