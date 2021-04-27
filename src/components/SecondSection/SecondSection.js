@@ -12,7 +12,6 @@ function SecondSection() {
             <h2 className="heading">
               <span className="span-content">See for yourself.</span>
               <span>Quick video introduction</span>
-              <span> </span>
             </h2>
           </div>
           <div style={{ height: '1rem' }}></div>

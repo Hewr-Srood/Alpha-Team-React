@@ -10,6 +10,7 @@ const Feauture = () => {
           <div className="col col-out">
             <div data-aos="flip-down" data-aos-duration={2000}>
               <img
+                className="img-fluid"
                 src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Replace-screen-inside-this-SO3-1.jpg"
                 alt="Replace-screen-inside-this-SO3"
               />

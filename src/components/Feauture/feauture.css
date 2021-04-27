@@ -14,18 +14,9 @@
   color: #fff;
 }
 
-.heading {
-  line-height: 60px !important;
-  font-weight: 900 !important;
-}
-
 .heading span {
   display: block;
   text-align: left;
-}
-
-.element-margin {
-  margin-left: 5rem;
 }
 
 .heading-2 {

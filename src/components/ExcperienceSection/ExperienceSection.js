@@ -5,7 +5,7 @@ function ExperienceSection() {
   return (
     <section>
       <div className="container">
-        <div className="row">
+        <div className="row my-5">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="experience-addresss">
               <h6>NOW UPGRADED FOR</h6>
@@ -75,6 +75,7 @@ function ExperienceSection() {
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div data-aos="flip-up" data-aos-duration="2000" className="experience-img aos-init aos-animate">
               <img
+                className="img-fluid"
                 src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Group-811211112-copy-71-1.jpg"
                 alt="mobile"
               />
