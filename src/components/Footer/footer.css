@@ -65,8 +65,8 @@ h3#jelevin {
 .footer-cards {
   background-color: inherit;
   width: 399.3px;
-  height: 240px;
-  padding: 35px 15px 0;
+  /* height: 240px; */
+  /* padding: 35px 15px 0; */
   text-align: center;
 }
 
