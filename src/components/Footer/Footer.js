@@ -44,29 +44,19 @@ function Footer() {
               <div>
                 <ul className="ul-footer text-center p-0">
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      FAQ
-                    </a>
+                    <button className="a-fonts-footer-sections">FAQ</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Shipment
-                    </a>
+                    <button className="a-fonts-footer-sections">Shipment</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Returns
-                    </a>
+                    <button className="a-fonts-footer-sections">Returns</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Gift cards
-                    </a>
+                    <button className="a-fonts-footer-sections">Gift cards</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Policies
-                    </a>
+                    <button className="a-fonts-footer-sections">Policies</button>
                   </li>
                 </ul>
               </div>
@@ -79,29 +69,19 @@ function Footer() {
               <div>
                 <ul className="ul-footer text-center p-0">
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      About us
-                    </a>
+                    <button className="a-fonts-footer-sections">About us</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Press
-                    </a>
+                    <button className="a-fonts-footer-sections">Press</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Offices
-                    </a>
+                    <button className="a-fonts-footer-sections">Offices</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Affiliates
-                    </a>
+                    <button className="a-fonts-footer-sections">Affiliates</button>
                   </li>
                   <li>
-                    <a href="#" className="a-fonts-footer-sections">
-                      Giveaway
-                    </a>
+                    <button className="a-fonts-footer-sections">Giveaway</button>
                   </li>
                 </ul>
               </div>
