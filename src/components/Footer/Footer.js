@@ -44,19 +44,19 @@ function Footer() {
               <div>
                 <ul className="ul-footer text-center p-0">
                   <li>
-                    <button className="a-fonts-footer-sections">FAQ</button>
+                    <p className="a-fonts-footer-sections">FAQ</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Shipment</button>
+                    <p className="a-fonts-footer-sections">Shipment</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Returns</button>
+                    <p className="a-fonts-footer-sections">Returns</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Gift cards</button>
+                    <p className="a-fonts-footer-sections">Gift cards</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Policies</button>
+                    <p className="a-fonts-footer-sections">Policies</p>
                   </li>
                 </ul>
               </div>
@@ -69,19 +69,19 @@ function Footer() {
               <div>
                 <ul className="ul-footer text-center p-0">
                   <li>
-                    <button className="a-fonts-footer-sections">About us</button>
+                    <p className="a-fonts-footer-sections">About us</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Press</button>
+                    <p className="a-fonts-footer-sections">Press</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Offices</button>
+                    <p className="a-fonts-footer-sections">Offices</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Affiliates</button>
+                    <p className="a-fonts-footer-sections">Affiliates</p>
                   </li>
                   <li>
-                    <button className="a-fonts-footer-sections">Giveaway</button>
+                    <p className="a-fonts-footer-sections">Giveaway</p>
                   </li>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ ul.social-media-icons-list > li {
   padding: 10px;
 }
 
-ul.social-media-icons-list > li button i {
+ul.social-media-icons-list > li p i {
   color: white;
 }
 
@@ -79,6 +79,7 @@ h3#jelevin {
 }
 
 .a-fonts-footer-sections {
+  cursor: pointer;
   color: white;
   font-weight: 16px;
   margin-bottom: 15px;
